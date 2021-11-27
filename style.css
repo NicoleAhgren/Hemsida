@@ -383,11 +383,22 @@ Html {
 }
 
 #Sidnot {
+    position: absolute;
     width: 100%;
     height: 275px;
     padding-top: 50px;
     margin-top: 85px;
-    margin-top: 0;
+    
+    background-color: rgb(34, 33, 33);
+    box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.2), 6px 0 6px 0 rgba(0, 0, 0, 0.19);
+}
+#SidnotDos {
+    position: absolute;
+    width: 100%;
+    height: 275px;
+    padding-top: 50px;
+    margin-top: 85px;
+    margin-left: -175px;
     
     background-color: rgb(34, 33, 33);
     box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.2), 6px 0 6px 0 rgba(0, 0, 0, 0.19);
@@ -426,6 +437,7 @@ Html {
     height: 8775px;
     margin-left: 175px;
     margin-top: 75px;
+    margin-bottom: 75px;
 
     border: 10px solid rgb(43, 38, 187);
     border-top-right-radius: 16px;
