@@ -1,0 +1,600 @@
+body {
+    margin: 0;
+}
+h1 {
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+h4 {
+    font-size: 30px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+h5 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+#M-Text {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+p {
+    font-family: fantasy;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#K-Rubrik {
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+
+    margin-left: 50px;
+}
+#K-Text {
+    font-size: 15px;
+    color: white;
+    line-height: 1.5;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#CS-Text {
+    display: block;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 435px;
+    margin-right: 525px;
+    margin-top: 175px;
+    font-size: 40px;
+    color: black;
+}
+
+#Bild-Uno {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 70px;
+}
+#Bild-Uno p {
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-decoration: underline;
+}
+#RaceStart {
+    width: 750px ;
+    height: 450px ;
+}
+
+#MedlemsRuta {
+    float: right;
+    margin-right: 60px;
+    margin-top: -575px;
+    
+    background-color: white;
+    border: 6px solid red;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
+    padding:  2px;
+    border-radius: 16px;
+    height: 360px;
+    width: 250px;
+}
+
+#Email {
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+#Check {
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+#M-Knapp {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+Html {
+    scroll-behavior: smooth;
+}
+
+#Meny {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(224, 28, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Logga {
+    width: 50px;
+    height: 100%;
+}
+#Meny a {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    padding: 25px ;
+}
+
+#Quizer {
+    float: left;
+    overflow: hidden;
+}
+#Quizer #Dropdown{
+    height: 100%;
+    font-size: 30px ;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: inherit;
+    font: bold;
+    
+    border: none;
+    outline: none;
+    padding: 25px;
+}
+#Hem:hover, #Quizer:hover #Dropdown, #Kontaktinfo:hover{
+    background-color: rgb(231, 105, 105);
+}
+#Dropdown-Innehåll {
+    width: 100%;
+    height: 1000px;
+    left: 0;
+    right: 0;
+    top: 75px;
+    background-color: transparent;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+
+    position: absolute;
+    display: none;
+
+}
+#Dropdown-Innehåll #Dropdown-Rubrik {
+    background: rgb(231, 105, 105);
+    color: black;
+    padding: 25px ;
+    height: 40px;
+}
+#Quizer:hover #Dropdown-Innehåll {
+    display: block;
+}
+#Column {
+    float: left;
+    width: 100%;
+    height: 1000px;
+    padding: 20px;
+    background-color: rgb(61, 58, 58) ;
+}
+#column a {
+    float: none;
+    color: white;
+    padding: 25px;
+    display: block;
+    text-align: left;
+
+}
+#Column a:hover{
+    background-color: rgb(94, 91, 91);
+    border-radius: 16px;
+
+}
+#Rad:after {
+    content: counter(Dropdown-Innehåll);
+    display: table;
+    clear: both;
+}
+
+#Verstappen {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+}
+#Ver {
+    border: 5px solid rgb(53, 50, 218);
+    padding: 2px;
+    height: 180px;
+    width: 125px;
+
+
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#Pérez {
+    width: 150px;
+    height: 150px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+#Per {
+    border: 5px solid rgb(53, 50, 218);
+    padding: 2px;
+    height: 180px;
+    width: 125px;
+
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+}
+#Riccardo {
+    width: 160px;
+    height: 160px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+#Ric {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+
+    border: 5px solid rgb(255, 145, 0);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+}
+#Norris {
+    width: 170px;
+    height: 170px;
+
+    margin-top: -30px;
+    margin-left: -20px;
+}
+#Nor {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+
+    border: 5px solid rgb(255, 145, 0);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;   
+}
+#Hamilton {
+    width: 155px;
+    height: 155px;
+
+    margin-top: -15px;
+    margin-left: -30px;
+}
+#Ham {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 212, 169);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Bottas {
+    width: 145px;
+    height: 145px;
+
+    margin-top: -5px;
+    margin-left: -20px;
+}
+#Bot {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 212, 169);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Leclerc {
+    width: 155px;
+    height: 155px;
+    margin-left: -30px;
+    margin-top: -25px;
+    margin-bottom: 10px ;
+}
+#Lec {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(241, 12, 69);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+}
+#Sainz {
+    width: 210px;
+    height: 210px;
+    margin-left: -50px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+}
+#Sai {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(241, 12, 69);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+
+#Sidnot {
+    width: 100%;
+    height: 275px;
+    padding-top: 50px;
+    margin-top: 85px;
+    margin-top: 0;
+    
+    background-color: rgb(34, 33, 33);
+    box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.2), 6px 0 6px 0 rgba(0, 0, 0, 0.19);
+}
+#Logga2 {
+    width: 300px;
+    height: 210px;
+    display: block;
+    margin-left: 900px;
+    margin-top: -175px;
+}
+#Tillbaka {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.733);
+    font-size: 20px;
+    color: black;
+}
+#Tdiv {
+    margin-left: 25px;
+    margin-top: -250px;
+}
+
+#R-VQ {
+    display: block;
+    border-width: 175px;
+    border: 10px solid white;
+    background-color: white;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-right: 415px;
+    margin-left: -15px;
+}
+#VQuiz {
+    display: block;
+    width: 850px;
+    height: 8775px;
+    margin-left: 175px;
+    margin-top: 75px;
+
+    border: 10px solid rgb(43, 38, 187);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left: transparent;
+}
+#FrågeRuta {
+    margin-top: 25px;
+    width: 775px;
+    margin-left: -10px;
+    text-align: center;
+    margin-bottom: 75px;
+
+    border: 10px solid white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+#B-V1 {
+    margin-top: 20px;
+    width: 750px;
+    height: 460px;
+}
+#B-V2 {
+    margin-top: 20px;
+    width: 750px;
+    height: 460px
+}
+#B-V3 {
+    margin-top: 20px;
+    width: 750px;
+    height: 460px;
+}
+#B-V4 {
+    margin-top: 20px;
+    width: 750px;
+    height: 500px;
+}
+#B-V5 {
+    margin-top: 20px;
+    width: 750px;
+    height: 350px;
+}
+#B-V6 {
+    margin-top: 20px;
+    width: 750px;
+    height: 430px;
+}
+#B-V7 {
+    margin-top: 20px;
+    width: 750px;
+    height: 460px;
+}
+#B-V8 {
+    margin-top: 20px;
+    width: 750px;
+    height: 425px;
+}
+#B-V9 {
+    margin-top: 20px;
+    width: 750px;
+    height: 425px;
+}
+#B-V10 {
+    margin-top: 20px;
+    width: 750px;
+    height: 425px;
+}
+
+#R-LQ {
+    display: block;
+    border-width: 175px;
+    border: 10px solid white;
+    background-color: white;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-right: 415px;
+    margin-left: -15px;
+}
+#LQuiz {
+    display: block;
+    width: 850px;
+    height: 8775px;
+    margin-left: 175px;
+    margin-top: 75px;
+
+    border: 10px solid rgb(255, 145, 0);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left: transparent;
+}
+#B-L1 {
+    margin-top: 20px;
+    width: 750px;
+    height: 410px;
+}
+#B-L3 {
+    margin-top: 20px;
+    width: 750px;
+    height: 400px;
+}
+#B-L4 {
+    margin-top: 20px;
+    width: 750px;
+    height: 500px;
+}
+#B-L6 {
+    margin-top: 20px;
+    width: 750px;
+    height: ;
+}
+
+#Fråga {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#SvarsAlternativ input{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    margin: 15px 15px;
+    width: 355px;
+    height: 100px;
+}
+#SvarsKnapp:hover, #SvarsKnappR:hover{
+    background-color: rgb(122, 122, 216);
+}
+#SvarsKnapp:focus {
+    background-color: rgb(206, 29, 29);
+}
+#SvarsKnappR:focus {
+    background-color: rgb(24, 163, 24);
+}
+#SkrivRuta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(219, 14, 14);
+}
+#SkrivSvar {
+    text-align: left;
+    margin-left: 20px;
+}
+#EnterKnapp {
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+
+    font-size: 25px;
+    background-color: rgb(21, 189, 21);
+}
+#SvarPOPUP {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(219, 14, 14);
+}
+
+
+
+
