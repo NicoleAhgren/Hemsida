@@ -178,7 +178,7 @@ Html {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: inherit;
-    font: bold;
+
     
     border: none;
     outline: none;
@@ -539,6 +539,16 @@ Html {
     margin-top: 20px;
     width: 750px;
     height: 500px;
+}
+#B-L5 {
+    margin-top: 20px;
+    width: 750px;
+    height: 440px;
+}
+#B-L6 {
+    margin-top: 20px;
+    width: 750px;
+    height: 425px;
 }
 
 #Fråga {
