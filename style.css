@@ -45,7 +45,7 @@ h6 {
     margin-bottom: 0;
     font-size: 25px;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
 
 }
 #M-Text {
@@ -189,7 +189,7 @@ Html {
 }
 #Dropdown-Innehåll {
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     left: 0;
     right: 0;
     top: 75px;
@@ -211,8 +211,8 @@ Html {
 }
 #Column {
     float: left;
-    width: 100%;
-    height: 1000px;
+    width: 96.8%;
+    height: 1920px;
     padding: 20px;
     background-color: rgb(61, 58, 58) ;
 }
@@ -235,76 +235,6 @@ Html {
     clear: both;
 }
 
-#Verstappen {
-    width: 130px;
-    height: 130px;
-    margin-top: 10px;
-}
-#Ver {
-    border: 5px solid rgb(53, 50, 218);
-    padding: 2px;
-    height: 180px;
-    width: 125px;
-
-
-    border-top: transparent;
-    border-left: transparent;
-    border-bottom-right-radius: 16px;
-
-    margin-left: 75px;
-    margin-right: 75px;
-}
-#Pérez {
-    width: 150px;
-    height: 150px;
-    margin-left: -10px;
-    margin-top: -10px;
-}
-#Per {
-    border: 5px solid rgb(53, 50, 218);
-    padding: 2px;
-    height: 180px;
-    width: 125px;
-
-    border-top: transparent;
-    border-left: transparent;
-    border-bottom-right-radius: 16px;
-}
-#Riccardo {
-    width: 160px;
-    height: 160px;
-    margin-top: -20px;
-    margin-left: -25px;
-}
-#Ric {
-    width: 125px;
-    height: 180px;
-    margin-left: 150px;
-
-    border: 5px solid rgb(255, 145, 0);
-    padding: 2px;
-    border-top: transparent;
-    border-left: transparent;
-    border-bottom-right-radius: 16px;
-}
-#Norris {
-    width: 170px;
-    height: 170px;
-
-    margin-top: -30px;
-    margin-left: -20px;
-}
-#Nor {
-    width: 125px;
-    height: 180px;
-    margin-left: 75px;
-
-    border: 5px solid rgb(255, 145, 0);
-    padding: 2px;
-    border-top: transparent;
-    border-left: transparent;
-    border-bottom-right-radius: 16px;   
-}
 #Hamilton {
     width: 155px;
     height: 155px;
@@ -312,7 +242,14 @@ Html {
     margin-top: -15px;
     margin-left: -30px;
 }
-#Ham {
+#Bottas {
+    width: 145px;
+    height: 145px;
+
+    margin-top: -5px;
+    margin-left: -20px;
+}
+#Ham, #Bot {
     width: 125px;
     height: 180px;
     margin-left: 75px;
@@ -324,20 +261,119 @@ Html {
     border-left: transparent;
     border-bottom-right-radius: 16px;  
 }
-#Bottas {
-    width: 145px;
-    height: 145px;
+#Alonso, #Ocon, #Vettel, #Stroll, #Russell, #Latifi, #Gasly,
+#Tsunoda, #Raikkonen, #Giovinazzi, #Schumacher, #Magnussen {
+    width: 155px;
+    height: 155px;
 
-    margin-top: -5px;
+    margin-top: -15px;
     margin-left: -20px;
 }
-#Bot {
+#Vet {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(36, 143, 84);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px; 
+}
+#Str {
     width: 125px;
     height: 180px;
     margin-left: 75px;
     margin-top: 50px;
 
-    border: 5px solid rgb(11, 212, 169);
+    border: 5px solid rgb(36, 143, 84);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Rus, #Lat {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(86, 203, 224);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Alo {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 172, 212);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px; 
+}
+#Oco {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 172, 212);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+}
+#Verstappen {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+#Pérez {
+    width: 150px;
+    height: 150px;
+    margin-left: -15px;
+    margin-top: -20px;
+}
+#Ver, #Per {
+    border: 5px solid rgb(53, 50, 218);
+    padding: 2px;
+    height: 180px;
+    width: 125px;
+
+
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#Gas {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 6px solid rgb(10, 49, 65);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px; 
+}
+#Tsu {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 6px solid rgb(10, 49, 65);
     padding: 2px;
     border-top: transparent;
     border-left: transparent;
@@ -350,18 +386,6 @@ Html {
     margin-top: -25px;
     margin-bottom: 10px ;
 }
-#Lec {
-    width: 125px;
-    height: 180px;
-    margin-left: 150px;
-    margin-top: 50px;
-
-    border: 5px solid rgb(241, 12, 69);
-    padding: 2px;
-    border-top: transparent;
-    border-left: transparent;
-    border-bottom-right-radius: 16px;
-}
 #Sainz {
     width: 210px;
     height: 210px;
@@ -369,7 +393,7 @@ Html {
     margin-top: -35px;
     margin-bottom: -35px;
 }
-#Sai {
+#Lec, #Sai {
     width: 125px;
     height: 180px;
     margin-left: 75px;
@@ -381,6 +405,80 @@ Html {
     border-left: transparent;
     border-bottom-right-radius: 16px;  
 }
+#Rai {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(156, 10, 47);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Gio {
+width: 125px;
+height: 180px;
+margin-left: 75px;
+margin-top: 50px;
+
+border: 5px solid rgb(156, 10, 47);
+padding: 2px;
+border-top: transparent;
+border-left: transparent;
+border-bottom-right-radius: 16px;  
+}
+#Norris {
+    width: 170px;
+    height: 170px;
+
+    margin-top: -30px;
+    margin-left: -20px;
+}
+#Riccardo {
+    width: 160px;
+    height: 160px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+#Nor, #Ric {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(255, 145, 0);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;   
+}
+#Sch {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(240, 234, 236);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+#Mag {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(240, 234, 236);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+
 
 #Sidnot {
     width: 100%;
@@ -516,7 +614,7 @@ Html {
 #LQuiz {
     display: block;
     width: 850px;
-    height: 8775px;
+    height: 8888px;
     margin-left: 175px;
     margin-top: 75px;
 
@@ -559,6 +657,11 @@ Html {
     margin-top: 20px;
     width: 750px;
     height: 400px;
+}
+#B-L9 {
+    margin-top: 20px;
+    width: 750px;
+    height: 455px;
 }
 #B-L10 {
     margin-top: 20px;
@@ -618,6 +721,84 @@ Html {
     color: rgb(219, 14, 14);
 }
 
+/* 
+#Alonso {
+    width: 155px;
+    height: 155px;
 
+    margin-top: -15px;
+    margin-left: -20px;
+}
+#Alo {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 172, 212);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px; 
+}
+#Ocon {
+    width: 155px;
+    height: 155px;
+
+    margin-top: -15px;
+    margin-left: -20px;
+}
+#Oco {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(11, 172, 212);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+
+#Leclerc {
+    width: 155px;
+    height: 155px;
+    margin-left: -30px;
+    margin-top: -25px;
+    margin-bottom: 10px ;
+}
+#Lec {
+    width: 125px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(241, 12, 69);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;
+}
+#Sainz {
+    width: 210px;
+    height: 210px;
+    margin-left: -50px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+}
+#Sai {
+    width: 125px;
+    height: 180px;
+    margin-left: 75px;
+    margin-top: 50px;
+
+    border: 5px solid rgb(241, 12, 69);
+    padding: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-right-radius: 16px;  
+}
+*/ 
 
 
